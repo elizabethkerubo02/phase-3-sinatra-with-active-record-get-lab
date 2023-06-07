@@ -15,7 +15,9 @@ gem "sinatra-activerecord"
 # Run common tasks from the command line
 # https://github.com/ruby/rake
 gem "rake"
-
+gem 'puma'
+gem 'thin'
+gem 'falcon'
 # Provides functionality to interact with a SQLite3 database
 # https://github.com/sparklemotion/sqlite3-ruby
 gem "sqlite3", "~> 1.4"
